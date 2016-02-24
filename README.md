@@ -6,8 +6,6 @@ Java Imports is a vscode extension that makes it easy to import java classes and
 
 ![Java Imports Preview](https://raw.githubusercontent.com/tushortz/vscode-Java-Imports/master/images/import.gif)
 
-![Basic Completion Preview](https://raw.githubusercontent.com/tushortz/vscode-Java-Imports/master/images/basic.gif)
-
 ## Usage
 
 Run vscode and on a java file, type **_** followed by the package/class you want to import and press tab or enter on selection.
@@ -21,6 +19,10 @@ For **basic completions**, use:
 * `pl` or `sout` --> To trigger printing to the console
 * `try` --> To trigger a try/catch clause
 * `void` --> To trigger a void method declaration
+
+
+![Basic Completion Preview](https://raw.githubusercontent.com/tushortz/vscode-Java-Imports/master/images/basic.gif)
+
 
 
 ## How to install
