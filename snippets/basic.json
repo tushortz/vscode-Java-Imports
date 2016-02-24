@@ -67,14 +67,12 @@
 		],
 		"description": "Method declaration"
 	},
-	"Function declaration": {
-		"prefix": "func",
+	"Void method declaration": {
+		"prefix": "void",
 		"body": [
-			"${1:public} ${2:String} ${3:funcName}(${4:String} ${5:arg}) {",
-			"	$6",
-			"	${7:return null;}",
+			"${1:public} void ${2:funcName}(${3:String} ${4:arg}) {", "	$5",
 			"}"
 		],
-		"description": "Function declaration"
+		"description": "Void method declaration"
 	}
 }
