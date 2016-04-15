@@ -74,5 +74,57 @@
 			"}"
 		],
 		"description": "Void method declaration"
+	},
+	"Interface Declaration" : {
+		"prefix" : "interface",
+		"body" : [
+			"public interface ${1:interfaceName} {",
+			"\tpublic void ${2:funcName}(){",
+			"\t}",
+			"}"
+		],
+		"description" : "Declares the interface that has one method with no arguments"
+	},
+	"Abstract Class Declaration" : {
+		"prefix" : "abstractclass",
+		"body" : [
+			"abstract class ${1:className}{",
+			"\tpublic abstract void ${2:funcName}();",
+			"}"
+		],
+		"description" : "Declares abstract class having one abstract method"
+	},
+	"String Variable Declaration" : {
+		"prefix" : "stringvar",
+		"body" : [
+			"public String ${1:variableName} = ${2:value};"
+		],
+		"description" : "Declare the public String variable"
+	},
+	"Thread Declaration" : {
+		"prefix" : "thread",
+		"body" : [
+			"public class ${1:className} extends Thread{",
+			"\tpublic ${1:className}(){",
+			"\t}",
+			"\tpublic void run(){",
+			"\t}",
+			"}"
+		],
+		"description" : "Declare the class which extends the Thread class and contains the run method"
+	},
+	"Public Variable" : {
+		"prefix" : "publicvar",
+		"body" : [
+			"public ${1:type} ${2:varName} = ${3:value};"
+		],
+		"description" : "Declare public variable"
+	},
+	"Object Declaration" : {
+		"prefix" : "objvar",
+		"body" : [
+			"public ${1:type} ${2:varName} = new ${1:type}();"
+		],
+		"description" : "Declare public object"
 	}
 }
