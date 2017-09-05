@@ -15,7 +15,7 @@
 	],
 	"repository": {
         "type": "git",
-        "url": "https://github.com/tushortz/vscode-Wildlife-Theme.git"
+        "url": "https://github.com/tushortz/vscode-Java-Imports.git"
     },
 	"contributes": {
 		"snippets": [
